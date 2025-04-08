@@ -23,21 +23,27 @@
   font-size: 12px;
   font-weight: 500;
 }
+
 .header-orders-count {
   border: none;
   background-color: coral;
   border-radius: 50%;
   font-size: 8px;
   font-weight: 400;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   width: 15px;
-  height: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 3px;
   position: absolute;
   right: -12px;
-  top: 0;
+  top: -5px;
   color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .header-right-para {
+    display: none;
+  }
 }

@@ -60,7 +60,7 @@ const ProductItem = props => {
           <div className="food-quantity-box">
             <button
               type="button"
-              data-testid={`${pd.dishId}-increament-button`}
+              data-testid={`${pd.dishId}-increment-button`}
               onClick={() => updOrderL(false)}
               className="food-quant-btn"
             >
@@ -69,7 +69,7 @@ const ProductItem = props => {
             <span className="food-quantity">{cartCount}</span>
             <button
               type="button"
-              data-testid={`${pd.dishId}-decreament-button`}
+              data-testid={`${pd.dishId}-decrement-button`}
               onClick={() => updOrderL(true)}
               className="food-quant-btn"
             >
